@@ -31,14 +31,12 @@
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/14.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/15.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/16.png">
-<meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/17.png">
-<meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/18.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/19.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/20.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/21.png">
 <meta property="og:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/22.png">
 <meta property="article:published_time" content="2022-01-26T01:39:03.887Z">
-<meta property="article:modified_time" content="2022-02-02T14:32:54.587Z">
+<meta property="article:modified_time" content="2022-02-02T14:45:44.094Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://example.com/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/1.png">
@@ -212,10 +210,17 @@
 <p><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/14.png"><br><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/15.png"></p>
 <p>之后在Git命令行界面输入<code>hexo d</code>可能会出现这个错误：</p>
 <p><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/16.png"></p>
-<p>这时在命令行按照这个语句输入即可</p>
-<p><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/17.png"></p>
-<p>注意邮箱跟名分别是GitHub注册时候的邮箱与用户名<br>输入完成之后重新运行<code>hexo  d</code><br>之后会出现弹框 提示你登录授权登录GitHub。授权之后会出现两个弹框分别是让你输入用户名与密码，分别为GitHub的用户名与密码。<br>输入之后如果不行的话 重新运行一些<code>hexo d</code>即可</p>
-<p><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/18.png"></p>
+<!-- 这时在命令行按照这个语句输入即可 -->
+<p>多尝试几次或者注释掉_config.yml文件夹中repo后面的链接，运行hexo d，之后取消注释，在运行hexo d看看。</p>
+<!-- ![](./Windows系统搭建hexo-GitHub博客/17.png)
+
+注意邮箱跟名分别是GitHub注册时候的邮箱与用户名
+输入完成之后重新运行```hexo  d```
+之后会出现弹框 提示你登录授权登录GitHub。授权之后会出现两个弹框分别是让你输入用户名与密码，分别为GitHub的用户名与密码。
+输入之后如果不行的话 重新运行一些```hexo d```即可
+
+![](./Windows系统搭建hexo-GitHub博客/18.png) -->
+
 <p>之后在浏览器复制名字与地址即可访问自己的博客</p>
 <p><img src="/2022/01/26/Windows%E7%B3%BB%E7%BB%9F%E6%90%AD%E5%BB%BAhexo-GitHub%E5%8D%9A%E5%AE%A2/19.png"></p>
 <h2 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h2><h3 id="如何更改主题"><a href="#如何更改主题" class="headerlink" title="如何更改主题"></a>如何更改主题</h3><p>Git命令行输入：<code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code></p>
